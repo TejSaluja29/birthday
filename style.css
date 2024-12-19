@@ -22,11 +22,12 @@ body {
 }
 
 .hey {
-    width: 15ch;
+    width: 18ch;
     animation: 
         typing 2s steps(14),
         blink .5s step-end infinite alternate,
         cursor-disappear 0s 2s forwards;
+    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -36,7 +37,7 @@ body {
 }
 
 .hap {
-    width: 18ch;
+    width: 21ch;
     opacity: 0;
     animation:
         fadeIn 0s 2s forwards,
@@ -44,6 +45,7 @@ body {
         blink .5s step-end infinite alternate,
         cursor-disappear 0s 4s forwards;
     white-space: nowrap;
+    border-right: 3px;
     overflow: hidden;
     font-weight: 900;
     animation-fill-mode: forwards;
@@ -56,10 +58,12 @@ body {
 
 @media screen and (max-width: 768px) {
     .hey {
-        font-size: 24px;
+        font-size: 26px;
+        border-right: 2px;
     }
     .hap {
-        font-size: 48px;
+        font-size: 50px;
+        border-right: 2px;
         letter-spacing: 2px;
         margin-block-start: 30px;
         margin-block-end: 30px;
@@ -67,9 +71,10 @@ body {
 }
 
 .i {
-    width: 65ch;
+    width: 66ch;
     font-weight: 900;
     opacity: 0;
+    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -83,9 +88,10 @@ body {
 }
 
 .and {
-    width: 41ch;
+    width: 43ch;
     font-weight: 900;
     opacity: 0;
+    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -99,9 +105,10 @@ body {
 }
 
 .so {
-    width: 32ch;
+    width: 34ch;
     font-weight: 900;
     opacity: 0;
+    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -117,6 +124,7 @@ body {
 @media screen and (max-width: 768px) {
     .i, .and, .so {
         font-size: 20px;
+        border-right: 2px;
         white-space: pre-wrap;
         width: 100%;
         line-height: 1.4;
