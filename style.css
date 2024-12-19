@@ -1,0 +1,356 @@
+body {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    background-color: #E0BBE4;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    padding: 8% 16%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 20% 5%;
+    }
+}
+
+.typing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hey {
+    width: 15ch;
+    animation: 
+        typing 2s steps(14),
+        blink .5s step-end infinite alternate,
+        cursor-disappear 0s 2s forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.hap {
+    width: 18ch;
+    opacity: 0;
+    animation:
+        fadeIn 0s 2s forwards,
+        typing 2s steps(17) 2s,
+        blink .5s step-end infinite alternate,
+        cursor-disappear 0s 4s forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 900;
+    animation-fill-mode: forwards;
+    color: #ffffff;
+    font-size: 110px;
+    letter-spacing: 3px;
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .hey {
+        font-size: 24px;
+    }
+    .hap {
+        font-size: 48px;
+        letter-spacing: 2px;
+        margin-block-start: 30px;
+        margin-block-end: 30px;
+    }
+}
+
+.i {
+    width: 65ch;
+    font-weight: 900;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: 
+        fadeIn 0s 4s forwards,
+        typing 6s steps(63) 4s,
+        blink .5s step-end infinite alternate 4s,
+        cursor-disappear 0s 6s forwards;
+    animation-fill-mode: forwards;
+    font-size: 25px;
+}
+
+.and {
+    width: 41ch;
+    font-weight: 900;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: 
+        fadeIn 0s 10s forwards,
+        typing 2s steps(39) 10s,
+        blink .5s step-end infinite alternate 10s,
+        cursor-disappear 0s 8s forwards;
+    animation-fill-mode: forwards;
+    font-size: 25px;
+}
+
+.so {
+    width: 32ch;
+    font-weight: 900;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: 
+        fadeIn 0s 12s forwards,
+        typing 2s steps(31) 12s,
+        blink .5s step-end infinite alternate 12s,
+        cursor-disappear 0s 10s forwards;
+    animation-fill-mode: forwards;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .i, .and, .so {
+        font-size: 20px;
+        white-space: pre-wrap;
+        width: 100%;
+        line-height: 1.4;
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+  
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+@keyframes cursor-disappear {
+    to { border-color: transparent }
+}
+
+@keyframes fadeIn {
+    to { opacity: 1 }
+}
+
+.trans-p-c, .trans-c-l, .trans-l-p, .trans-p-la {
+    height: 200px;
+    width: 100%;
+}
+
+.trans-p-c {
+    background-image: linear-gradient(to bottom, rgba(224, 187, 228), rgba(254, 200, 216));
+}
+
+.trans-c-l {
+    background-image: linear-gradient(to bottom, rgba(254, 200, 216), rgba(255, 223, 211));
+}
+
+.trans-l-p {
+    background-image: linear-gradient(to bottom, rgba(255, 223, 211), rgba(224, 187, 228));
+}
+
+.trans-p-la {
+    background-image: linear-gradient(to bottom, rgba(224, 187, 228), rgba(254, 200, 216));
+}
+
+.container-cotton {
+    background-color: #FEC8D8;
+    padding: 1% 16%;
+}
+
+@media screen and (max-width: 768px) {
+    .container-cotton {
+        padding: 5% 5%;
+    }
+}
+
+.container-cotton p {
+    font-size: 25px;
+}
+
+.container-cotton font {
+    font-size: 120px;
+    margin-right: 10px;
+    font-weight: 900;
+    color: white;
+}
+
+.clock-holder font {
+    font-size: 72px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-cotton p {
+        font-size: 20px;
+    }
+    .clock-holder font {
+        font-size: 36px;
+    }
+}
+
+.container-lum {
+    background-color: #FFDFD3;
+    padding: 1% 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .container-lum {
+        padding: 5% 5%;
+    }
+}
+
+.love {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .love {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+}
+
+.container-lum p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-lum p {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+.container {
+    padding: 16% 16%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 16% 5%;
+    }
+}
+
+.container p {
+    font-size: 21px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    background-color: #957DAD;
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+.card.fade-out {
+    opacity: 0;
+}
+
+.card h2 {
+    width: fit-content;
+    font-size: 50px;
+    display: none;
+}
+
+.card p {
+    display: none;
+}
+
+.card font {
+    margin-top: 120px;
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+
+.card.show font {
+    display: none;
+}
+
+.card.show p, .card.show h2 {
+    display: block;
+}
+
+.container-lavender {
+    background-color: #FEC8D8;
+    padding: 16%;
+}
+
+.birthday-wishes {
+    margin-top: 20%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .birthday-wishes {
+        margin-top: 10%;
+        font-size: 18px;
+    }
+}
+
+.cake {
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .cake {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
+.bori {
+    height: 400px;
+    width: 400px;
+    margin-left: 70%;
+    transform: rotate(40deg);
+}
+
+@media screen and (max-width: 768px) {
+    .bori {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+}
