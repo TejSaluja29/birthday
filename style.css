@@ -4,6 +4,7 @@ body {
     background-color: #E0BBE4;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -45,7 +46,7 @@ body {
         blink .5s step-end infinite alternate,
         cursor-disappear 0s 4s forwards;
     white-space: nowrap;
-    border-right: 3px;
+    border-right: 3px solid white;
     overflow: hidden;
     font-weight: 900;
     animation-fill-mode: forwards;
@@ -74,7 +75,6 @@ body {
     width: 66ch;
     font-weight: 900;
     opacity: 0;
-    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -91,7 +91,6 @@ body {
     width: 43ch;
     font-weight: 900;
     opacity: 0;
-    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -108,7 +107,6 @@ body {
     width: 34ch;
     font-weight: 900;
     opacity: 0;
-    border-right: 3px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -170,7 +168,7 @@ body {
 
 .container-cotton {
     background-color: #FEC8D8;
-    padding: 1% 16%;
+    padding: 10% 16%;
 }
 
 @media screen and (max-width: 768px) {
@@ -185,6 +183,7 @@ body {
 
 .container-cotton font {
     font-size: 120px;
+    margin-top: 20px;
     margin-right: 10px;
     font-weight: 900;
     color: white;
